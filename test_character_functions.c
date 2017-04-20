@@ -25,7 +25,7 @@ void test_character_functions(void)
 			res_ft = (*ft_f[j])(i);
 			if (res != res_ft)
 			{
-				printf("Mismatch:\n");
+				printf("\033[31mMismatch:\033[0m\n");
 				printf(" %s(%d) => %d\n", fnames[j], i, res);
 				printf(" ft_%s(%d) => %d\n", fnames[j], i, res_ft);
 				all_good = 0;
@@ -33,5 +33,5 @@ void test_character_functions(void)
 		}
 	}
 	if (all_good)
-		printf("Fonctions sur les caracteres: tout est bon\n");
+		printf("\033[32mFonctions sur les caracteres: tout est bon\033[0m\n");
 }

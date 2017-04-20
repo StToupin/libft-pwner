@@ -32,8 +32,8 @@ int test_ft_strcpy(void)
 			break ;
 	}
 	if (ok)
-		printf("Success\n\n");
+		printf("\033[32mSuccess\033[0m\n\n");
 	else
-		printf("Failure\n\n");
+		printf("\033[31mFailure\033[0m\n\n");
 	return (ok);
 }

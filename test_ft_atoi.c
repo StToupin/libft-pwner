@@ -34,8 +34,8 @@ int test_ft_atoi(void)
 	} while (bruteforce_increment_string(str0, len));
 	free(str0);
 	if (ok)
-		printf("Success\n\n");
+		printf("\033[32mSuccess\033[0m\n\n");
 	else
-		printf("Failure\n\n");
+		printf("\033[31mFailure\033[0m\n\n");
 	return (ok);
 }
