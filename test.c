@@ -25,7 +25,5 @@ int main(void)
 	test_ft_strncmp();
 	test_ft_atoi();
 	test_character_functions();
-	test_ft_putnbr();
-	//test_dllist();
 	return (0);
 }
