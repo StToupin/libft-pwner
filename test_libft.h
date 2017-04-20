@@ -23,7 +23,5 @@ int test_ft_strcmp(void);
 int test_ft_strncmp(void);
 int test_ft_atoi(void);
 void test_character_functions(void);
-void test_ft_putnbr(void);
-void test_dllist(void);
 
 #endif
