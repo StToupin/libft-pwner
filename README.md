@@ -1,6 +1,6 @@
 # libft-pwner
 
-Because passing the Moulinette doesn't mean that your code free of bugs.
+Because passing the Moulinette doesn't mean that your code is free of bugs.
 
 Usage:
 1. Go to "libft-pwner" folder.
