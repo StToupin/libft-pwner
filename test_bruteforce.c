@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include "test_libft.h"
 #include "libft.h"
-#include "test_print.h"
 
 char	*bruteforce_new_string(size_t len)
 {

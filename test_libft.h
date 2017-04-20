@@ -1,6 +1,7 @@
 #ifndef TEST_LIBFT_H
 # define TEST_LIBFT_H
 
+void	print_string_hex(char *str, int len);
 int test_ft_memset(void);
 int test_ft_bzero(void);
 int test_ft_memcpy(void);

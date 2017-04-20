@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "libft.h"
+#include "test_libft.h"
 #include "test_equal.h"
 #include "test_bruteforce.h"
-#include "test_print.h"
 
 int test_ft_atoi(void)
 {
